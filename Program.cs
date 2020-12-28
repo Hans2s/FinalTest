@@ -1,11 +1,14 @@
 ﻿using System;
 
+
 namespace FinalTest
 {
     class Program
     {
-        static void Main(string[] args)
+
+            static void Main(string[] args)
         {
+
             //writing the variables 
             double a = 1.234;
             double b = 0.756;
@@ -20,11 +23,11 @@ namespace FinalTest
             // 2.x + cos g = h
             // then h to the power of d  = y
 
-            int x = math.sin(a);
-            int f = math.sqrt(c);
-            int g = Abs(b * f);
-            int h = 2 * x + math.cos(g);
-            int y = pow(h, d);
+            double x = Math.Sin(a);
+            double f = Math.Sqrt(c);
+            double g = Math.Abs(b * f);
+            double h = 2 * x + Math.Cos(g);
+            double y = Math.Pow(h, d);
 
 
             System.Console.WriteLine("equals = " + y);
